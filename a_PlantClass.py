@@ -9,6 +9,8 @@ class Plant:
 
 
 class Flower(Plant):
+    #init method of plant cant create subclass if superclass does not exist
+   #only works from top down. Subclass can access superclass cannot access subclass
     def __init__(self,color, petals):
         Plant.__init__(self,color)
 

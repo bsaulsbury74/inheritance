@@ -1,0 +1,5 @@
+Example subclass 
+class car(Automobile)
+
+Polymorphism: Ability of object to take differnt forms 
+ def Make_sound ex
